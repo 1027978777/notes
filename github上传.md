@@ -2,17 +2,17 @@
 
 1. 右上角 new repository
 
-2. ![image-20220812164029164](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220812164029164.png)
+2. ![image-20220812164029164](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151012012.png)
 
 3. 复制https连接
 
-4. ![image-20220812164234183](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220812164234183.png)
+4. ![image-20220812164234183](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151013201.png)
 
 5. 在本地下载：[git](https://git-scm.com/download/win)
 
 6. 然后找到你要上传的文件夹项目，右键点击文件夹（注意：不能选单个文件或者压缩包）在选项里选择*Git Bash Here*
 
-7. ![image-20220812164647576](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220812164647576.png)
+7. ![image-20220812164647576](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151014004.png)
 
 8. 输入：**git clone https://github.com/xx/xx.git** (之前复制的https地址)
 
@@ -30,11 +30,11 @@
 
 15. 输入：**git push -u origin main**
 
-16. ![image-20220812170342302](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220812170342302.png)
+16. ![image-20220812170342302](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151015166.png)
 
 17. Logon failed, use ctrl+c to cancel basic credential prompt.错误
 
-18. ![image-20220812171823249](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220812171823249.png)
+18. ![image-20220812171823249](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151015146.png)
 
 19. 如果 git 没有更新到最新版本，就会发生这种情况，请更新 git，要更新 git，只需根据您使用的操作系统类型执行以下命令：
 
