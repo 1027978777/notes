@@ -1,4 +1,4 @@
-# 本地文件上传github
+# 一、本地文件上传github
 
 1. 右上角 new repository
 
@@ -41,3 +41,22 @@
 20. **windows**: `git update-git-for-windows`
 
     **Linux/Unix**: `git update`
+
+# 二、Typora+picgo+github图片上传
+
+1. 首先在 github 新建一个仓库，放置自己的图片
+2. ![image-20220812164029164](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151012012.png)
+3. 设置
+4. ![](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151023374.png)
+5. ![image-20220815102443755](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151024787.png)
+6. ![image-20220815102521472](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151025499.png)
+7. ![image-20220815102604519](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151026550.png)
+8. ![image-20220815102618165](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151026185.png)
+9. 复制token 
+10. 下载picgo
+11. ![image-20220815102744829](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151027866.png)
+12. 配置picgo
+13. ![image-20220815103143273](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151031305.png)
+14. ![image-20220815103258233](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151032264.png)
+15.  typora 验证图片上传选项
+16. ![image-20220815103544472](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151035493.png)
