@@ -1,4 +1,4 @@
-> ## linux部署前端项目
+> ## linux环境部署前端项目
 
 - ### 安装[node](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -52,7 +52,7 @@
   whereis nginx
   ```
 
-  ![image-20220820201326904](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220820201326904.png)
+  ![image-20220820201326904](https://raw.githubusercontent.com/1027978777/mybed/main/img202208202152232.png)
 
   安装后网站的配置文件会在 **/etc/nginx/conf.d/**目录下，新增网站时只要在此目录下新增一份配置文件，或者直接应用/etc/nginx/nginx.conf文件，其内容如下：
 
