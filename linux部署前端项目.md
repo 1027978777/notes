@@ -1,6 +1,6 @@
-> ### linux部署前端项目
+> ## linux部署前端项目
 
-- #### 安装[node](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ### 安装[node](https://github.com/nvm-sh/nvm#installing-and-updating)
 
   推荐安装nvm来安装和管理node版本：
 
@@ -18,7 +18,7 @@
   解决：只需在执行nvm前加一行指令即可解决问题：source ~/.nvm/nvm.sh
   注意： ~/.nvm是nvm的安装路径，需要写nvm的实际安装路径，可以用find / -name “.nvm” 来查找nvm的安装目录
 
-- #### 安装[nginx](http://nginx.org/en/linux_packages.html)
+- ### 安装[nginx](http://nginx.org/en/linux_packages.html)
 
   先创建/etc/yum.repos.d/nginx.repo文件内容如下：
 
@@ -46,7 +46,7 @@
   sudo yum install nginx
   ```
 
-- ## 运行nginx
+- ### 运行nginx
 
   ```
   whereis nginx
@@ -54,7 +54,7 @@
 
   ![image-20220820201326904](C:\Users\10279\AppData\Roaming\Typora\typora-user-images\image-20220820201326904.png)
 
-  安装后网站的配置文件会在 **/etc/nginx/conf.d/**目录下，新增网站时只要在此目录下新增一份配置文件，或者直接应用/etc/nginx/nginx.conf文件：
+  安装后网站的配置文件会在 **/etc/nginx/conf.d/**目录下，新增网站时只要在此目录下新增一份配置文件，或者直接应用/etc/nginx/nginx.conf文件，其内容如下：
 
   ```
   # For more information on configuration, see:
@@ -142,26 +142,23 @@
   }
   ```
 
-  可以看到 root         /usr/share/nginx/html；我们此时只需要将前端项目打包，将dist目录下的内容复制到 /usr/share/nginx/html目录下，再输入：
+  可以看到 root         /usr/share/nginx/html；我们此时只需要将前端项目打包，将dist目录下的内容复制到 /usr/share/nginx/html目录下，
 
-  ```
-  /usr/sbin/nginx -c /etc/nginx/nginx.conf
-  ```
-
-  然后重新应用下配置文件就可以了。这里介绍下nginx两个常用的命令：
-
+  然后重新应用下配置文件就可以了。这里介绍下nginx常用的命令：
+  
   ```
   #测试配置文件是否正常
   nginx -t
+  #nginx版本
+  nginx -v
   #重新应用配置文件
   nginx -s reload
+  #停止 nginx 命令：
+  nginx -s stop
+  #启动 nginx 命令：
+  nginx或者/usr/sbin/nginx -c /etc/nginx/nginx.conf
   ```
-
   
-
-
-
-
-
-
-
+  查看linux 开放的所有端口netstat -ntpl
+  
+  查看nginx 的状态 ps -ef | grep nginx 出现master 则启动成功

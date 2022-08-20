@@ -1,4 +1,5 @@
-# 一、本地文件上传github
+> ## 一、本地文件上传github
+>
 
 1. 右上角 new repository
 
@@ -42,7 +43,8 @@
 
     **Linux/Unix**: `git update`
 
-# 二、Typora+picgo+github图片上传
+> ## 二、Typora+picgo+github图片上传
+>
 
 1. 首先在 github 新建一个仓库，放置自己的图片
 2. ![image-20220812164029164](https://raw.githubusercontent.com/1027978777/mybed/main/img/202208151012012.png)
