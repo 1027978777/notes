@@ -24,7 +24,7 @@ SELECT (select description from pg_description where objoid = oid and objsubid =
        ON n.oid = c.relnamespace
      WHERE 1= 1
      and relkind = 'r'
---       and c.relname = 'pg_class'
+    and c.relname = 'pg_class'
       AND n.nspname = 'auth'
      )b
  WHERE a.attrelid = b.oid
