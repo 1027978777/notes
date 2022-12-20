@@ -29,4 +29,5 @@
 27. JUnitGenerator V2.0 生成单元测试类
 28. Squaretest 生成单元测试类
 29. Show Comment 智能注释
+30. Adapter for Eclipse Code Formatter 格式化代码
 
