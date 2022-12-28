@@ -1,0 +1,16 @@
+1. [geoserver下载](https://geoserver.org/download/)
+2. ![image-20221228104222479](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281042527.png)
+3. ![image-20221228104247195](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281042244.png)
+4. ![image-20221228104846191](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281048245.png)
+5. ![image-20221228104907380](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281049413.png)
+6. ![image-202212281051456](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281051456.png)
+7. ![image-20221228142538328](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281425428.png)
+8. 启动geoserver：bin-->startup.bat
+9. 启动成功即可访问：http://localhost:8080/geoserver
+10. geoserver默认的用户名和密码admin/geoserver
+11. 修改start.ini的jetty.http.port即可改端口
+12. 插件下载
+13. ![image-20221228162220995](https://raw.githubusercontent.com/1027978777/mybed/main/img/202212281622037.png)
+14. 插件安装
+15. 下载完成后，解压缩，将jar文件拷贝到webapps/geoserver/[WEB-INF](https://so.csdn.net/so/search?q=WEB-INF&spm=1001.2101.3001.7020)/lib中
+16. 重启服务
